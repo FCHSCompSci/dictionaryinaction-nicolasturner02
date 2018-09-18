@@ -10,9 +10,12 @@ champs={
             'Aatrox':trashcan,
     }
 def play_game():
-    input("do you want to play Shen,Nautilus,or Aatrox")
+    input("do you want to play Shen,Nautilus,or Aatrox(hint it must be Shen)")
     if input != Shen:
         return (champs)
-    input("do you want to play with that champ yes or no")
-    if input == no:
+    else:
+        print=("you lose")
         sys.exit
+          
+
+
