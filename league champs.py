@@ -1,3 +1,6 @@
+#Nicolas Turner
+#league champ
+#09/24/2018
 import time
 import sys
 shen={
@@ -17,14 +20,16 @@ time.sleep(2)
 print("Shen, these are your stats!")
 for stat, value in shen.items():
     print(stat,value)
-y=("yes")
-n=("no")
+Y=("yes")
+N=("no")
 def play_shen():
-    user_input=input("did you win the fight [y]es or [n]o")
-    if user_input != y:
-        ('kills',+1)
-    if user_input != n:
-         ('deaths',+1)
+    user_input=input("did you win the fight [Y]es/[N]o")
+    if user_input == Y:
+        shen['kills']+1 and shen['exp']+100
+    if user_input == N:
+        shen['deaths']+1
+        
+        
         
         
     
